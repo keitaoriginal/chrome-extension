@@ -1,0 +1,111 @@
+﻿html,
+body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+  padding-bottom: 180px;
+}
+.demo-options {
+  margin-bottom: 10px;
+}
+.opt__strict .not-strict {
+  opacity: 0.3;
+}
+.container {
+  width: 90%;
+  margin: 3% auto;
+  display: block;
+}
+.source-wrap {
+  width: 36%;
+  float: left;
+  display: block;
+}
+.source {
+  width: 100%;
+  font-family: Helvetica, Arial, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  min-height: 500px;
+  border: none;
+  outline: none;
+  overflow: auto;
+}
+.source::-webkit-scrollbar {
+  background-color: #FFF;
+  width: 9px;
+}
+.source::-webkit-scrollbar-thumb {
+  background-color: #F1F1F1;
+}
+.source::-webkit-scrollbar-corner {
+  background-color: #F1F1F1;
+}
+.source::-webkit-resizer {
+  border: none;
+}
+.source,
+.result-view,
+.result-html,
+.result-src,
+.result-debug {
+  height: 100%;
+}
+.result-view {
+  width: 60%;
+  float: right;
+}
+.result-html,
+.result-src,
+.result-debug {
+  font-family: Helvetica, Arial, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  overflow: auto;
+  border: none;
+}
+.result-src,
+.result-debug {
+  display: none;
+  background-color: #fff;
+}
+.result-html img {
+  max-width: 100%;
+}
+.result-src-content,
+.result-debug-content {
+  white-space: pre;
+}
+/* switch body class */
+.result-as-html .result-html {
+  display: block;
+}
+.result-as-html .result-src,
+.result-as-html .result-debug {
+  display: none;
+}
+.result-as-src .result-src {
+  display: block;
+}
+.result-as-src .result-html,
+.result-as-src .result-debug {
+  display: none;
+}
+.result-as-debug .result-debug {
+  display: block;
+}
+.result-as-debug .result-html,
+.result-as-debug .result-src {
+  display: none;
+}
+/* source control and result switch */
+.source-control, .result-switch {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin-top: 20px;
+}
+.source-control li, .result-switch li {
+  margin-right: 10px;
+  display: inline-block;
+}
