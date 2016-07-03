@@ -1,0 +1,129 @@
+﻿html,
+body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+  padding-bottom: 180px;
+  font-weight: 500;
+}
+.demo-options {
+  margin-bottom: 10px;
+}
+.opt__strict .not-strict {
+  opacity: 0.3;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+.source-wrap {
+  width: 48%;
+  float: left;
+  display: block;
+  background-color: #065899;
+  color: #FFF;
+  padding: 0 3%;
+}
+.source {
+  width: 100%;
+  font-family: Helvetica, Arial, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  min-height: 1600px;
+  background-color: #065899;
+  color: #FFF;
+  border: none;
+  outline: none;
+  overflow: auto;
+}
+.source::-webkit-input-placeholder {
+  color: #FFF;
+}
+.source::-webkit-scrollbar {
+  background-color: #FFF;
+  width: 9px;
+}
+.source::-webkit-scrollbar-thumb {
+  background-color: #F1F1F1;
+}
+.source::-webkit-scrollbar-corner {
+  background-color: #F1F1F1;
+}
+.source::-webkit-resizer {
+  border: none;
+}
+.source-wrap a {color: #FFF;}
+.source,
+.result-view,
+.result-html,
+.result-src,
+.result-debug {
+  max-width: 100%;
+  height: 100%;
+  word-wrap:break-word;
+}
+.result-view {
+  width: 52%;
+  padding: 0 3%;
+  float: right;
+}
+.result-html,
+.result-src,
+.result-debug {
+  font-family: Helvetica, Arial, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  overflow: auto;
+  border: none;
+}
+.result-src,
+.result-debug {
+  display: none;
+  background-color: #fff;
+}
+.result-html img {
+  max-width: 100%;
+}
+.result-src-content,
+.result-debug-content {
+  white-space: pre;
+}
+.result-view a {color: #065899;}
+/* switch body class */
+.result-as-html .result-html {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+}
+.result-as-html .result-src,
+.result-as-html .result-debug {
+  display: none;
+}
+.result-as-src .result-src {
+  display: block;
+}
+.result-as-src .result-html,
+.result-as-src .result-debug {
+  display: none;
+}
+.result-as-debug .result-debug {
+  display: block;
+}
+.result-as-debug .result-html,
+.result-as-debug .result-src {
+  display: none;
+}
+/* source control and result switch */
+.source-control, .result-switch {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin-top: 20px;
+}
+.source-control li, .result-switch li {
+  margin-right: 10px;
+  display: inline-block;
+}
+ul li p, ol li p {margin-bottom: auto;}
