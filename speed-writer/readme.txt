@@ -1,5 +1,7 @@
 # Speed Writer Change Log
 
+[Chrome Extension](https://chrome.google.com/webstore/detail/speed-writer/pckbepeadbhaafeeagcgfiepngbioalg?utm_source=chrome-ntp-icon)
+
 version 1.1.1
 Redesign
 
