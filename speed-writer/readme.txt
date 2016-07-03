@@ -1,3 +1,8 @@
+# Speed Writer Change Log
+
+version 1.1.1
+Redesign
+
 memo
 manifest.js
 open extension when open a new tab
